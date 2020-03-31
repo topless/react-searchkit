@@ -10,7 +10,6 @@ import { createStore, applyMiddleware } from 'redux';
 import { connect } from 'react-redux';
 import thunk from 'redux-thunk';
 
-import { INITIAL_STORE_STATE } from './storeConfig';
 import rootReducer from './state/reducers';
 import { INITIAL_STORE_STATE } from './storeConfig';
 
